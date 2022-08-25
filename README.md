@@ -35,6 +35,10 @@ chmod +x apiSend && ./apiSend
 }
 ```
 # 自行编译
+全局安装pkg  
+```bash
+npm install -g pkg
+```
 下载 apiSend.js
 ```bash
 pkg -t node14-linux apiSend.js
