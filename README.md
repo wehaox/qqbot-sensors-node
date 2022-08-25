@@ -34,3 +34,9 @@ chmod +x apiSend && ./apiSend
     "interval": 60000  //多少毫秒查询一次(默认一分钟)
 }
 ```
+# 自行编译
+下载 apiSend.js
+```bash
+pkg -t node14-linux apiSend.js
+```
+
